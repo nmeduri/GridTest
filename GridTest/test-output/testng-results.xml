@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="42718" started-at="2020-07-08T07:13:43Z" finished-at="2020-07-08T07:14:26Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="42718" started-at="2020-07-08T07:13:43Z" finished-at="2020-07-08T07:14:26Z">
+      <class name="docker.ChromeTest">
+        <test-method status="PASS" signature="links1()[pri:1, instance:docker.ChromeTest@2b98378d]" name="links1" duration-ms="13745" started-at="2020-07-08T07:13:43Z" finished-at="2020-07-08T07:13:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links1 -->
+      </class> <!-- docker.ChromeTest -->
+      <class name="docker.FirefoxTest">
+        <test-method status="PASS" signature="links2()[pri:1, instance:docker.FirefoxTest@4b9e13df]" name="links2" duration-ms="42684" started-at="2020-07-08T07:13:43Z" finished-at="2020-07-08T07:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links2 -->
+      </class> <!-- docker.FirefoxTest -->
+      <class name="docker.ChromeTest_Latest">
+        <test-method status="PASS" signature="links1()[pri:1, instance:docker.ChromeTest_Latest@cb5822]" name="links1" duration-ms="15510" started-at="2020-07-08T07:13:43Z" finished-at="2020-07-08T07:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links1 -->
+      </class> <!-- docker.ChromeTest_Latest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="methods">
+  <test thread-count="5" name="Test1(failed)" parallel="methods">
+    <classes>
+      <class name="docker.SmokeTest">
+        <methods>
+          <include name="links1"/>
+        </methods>
+      </class> <!-- docker.SmokeTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

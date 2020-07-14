@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" parallel="classes">
+
+	<test thread-count="7" name="Test1">
+		<classes>
+		<!-- 	<class name="docker.Setup_DockerGrid" />  -->
+			<class name="docker.ChromeTest_Bromine" />
+			<class name="docker.ChromeTest_Gold" />
+			<class name="docker.ChromeTest" />
+		<!-- <class name="docker.OperaTest" />
+			<class name="docker.ChromeTest_Latest" />
+			<class name="docker.FirefoxTest" /> -->
+			
+
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
